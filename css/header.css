@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header Section */
+#header {
+    background-image: url(../img/infinite-loop-02-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+}
+
+.header_section {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10%;
+    font-size: 22px;
+}
+
+.header_section h4 {
+    color: white;
+    cursor: pointer;
+}
+
+.header_ul {
+    display: flex;
+    gap: 40px;
+}
+
+.header_li {
+    list-style: none;
+}
+
+.header_ul .header_li a {
+    color: gray;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header_ul .active a {
+    color: white;
+}
+
+.header_ul .header_li a:hover {
+    color: white;
+}
+
+.header_ul .header_li a:active {
+    color: red;
+}
+
+.header_section__items {
+    padding: 150px 0 0 0;
+    text-align: center;
+}
+
+.header_section__items h1 {
+    color: white;
+    font-size: 54px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    padding: 0 0 15px 0;
+}
+
+.header_section__items p {
+    color: #acacac;
+    padding: 0 0 10px 0;
+    font-size: 20px;
+}
+
+.header_item__i {
+    display: inline-block;
+    color: white;
+    margin: 140px 0 0 730px;
+    padding: 5px 20px;
+    background-color: rgb(54, 54, 142);
+    font-size: 40px;
+    border-radius: 5px;
+}
+/* /Header Section */
