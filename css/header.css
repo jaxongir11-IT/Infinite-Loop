@@ -16,7 +16,7 @@
 .header_section {
     display: flex;
     justify-content: space-between;
-    padding: 30px 10%;
+    padding: 20px 10%;
     font-size: 22px;
 }
 
@@ -79,5 +79,6 @@
     background-color: rgb(54, 54, 142);
     font-size: 40px;
     border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 /* /Header Section */
